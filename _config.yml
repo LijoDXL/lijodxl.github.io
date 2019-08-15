@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Welcome
-subtitle: Let's talk
+title: Lijo A J
+subtitle: A personal blog
 email: lijoabrahamjoseph91@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- A site where I share info/tutorial of things I found useful
- in my workflow as a researcher. These are some of the things that I wish
- I had known sooner and so I put them all in a single place.
+ A site to share info/tutorial of things I found useful
+ in my research workflow. These are things I wish
+ I had known earlier while starting my research. I am now putting them all in one place.
 
 
 twitter_username: lijodxl
@@ -34,7 +34,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: IN # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -64,21 +64,21 @@ plugins:
 author:
   name   : "Lijo Abraham Joseph"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "A PhD scholar in Physical Oceanography"
-  location: "Hyderabad,India"
+  bio    : "Oceanographer, research scholar, pythonista"
+  location: "Hyderabad, India"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://lijodxl.github.io"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:lijoabrahamjoseph91@gmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/lijodxl"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lijodxl"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/silver.node"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/lijoaj"
 
 footer:
   links:
@@ -88,9 +88,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lijodxl"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/silver.node"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/lijoaj"
 
 defaults:
   # _posts
